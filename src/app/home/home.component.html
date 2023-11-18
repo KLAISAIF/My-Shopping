@@ -1,0 +1,6 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div class="d-flex justify-content-arround" *ngFor="let article of products" >
+    <app-articles [products]="article"  ></app-articles>
+  </div>
+</div>
